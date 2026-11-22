@@ -1,0 +1,7 @@
+﻿services:
+  bookkeep:
+    image: bookkeep
+    build:
+      context: .
+      dockerfile: Dockerfile
+

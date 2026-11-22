@@ -1,0 +1,158 @@
+# =========================
+# Build & Compile Output
+# =========================
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+build/
+bld/
+*.dll
+*.exe
+*.pdb
+*.mdb
+*.cache
+*.log
+*.vspscc
+*.vssscc
+
+# =========================
+# Visual Studio
+# =========================
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+*.rsuser
+*.svclog
+
+# =========================
+# Rider / JetBrains
+# =========================
+.idea/
+*.sln.iml
+*.DotSettings.user
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+# Keep shared settings if you want:
+# !.vscode/settings.json
+# !.vscode/tasks.json
+# !.vscode/launch.json
+# !.vscode/extensions.json
+
+# =========================
+# Test Results & Coverage
+# =========================
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.trx
+*.coverage
+*.coveragexml
+coverage/
+coverage*.json
+coverage*.xml
+coverage*.info
+
+# =========================
+# NuGet
+# =========================
+*.nupkg
+*.snupkg
+**/packages/*
+!**/packages/build/
+*.nuget.props
+*.nuget.targets
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# =========================
+# Node / npm (if used)
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+package-lock.json.bak
+yarn.lock.bak
+
+# =========================
+# Blazor / Client Libraries (LibMan)
+# =========================
+# Restored client-side libraries (LibMan)
+wwwroot/lib/
+# NOTE: Do NOT ignore libman.json (must be committed)
+
+# SASS/SCSS generated source maps
+wwwroot/css/*.map
+*.css.map
+*.js.map
+
+# =========================
+# Local Databases
+# =========================
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+*.mdf
+*.ldf
+*.ndf
+
+# =========================
+# Secrets & Environment
+# =========================
+appsettings.Development.json
+appsettings.Local.json
+*.secrets.json
+.env
+.env.*
+!.env.example
+
+# =========================
+# Logs & Temp
+# =========================
+*.log
+logs/
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# =========================
+# Publish Output
+# =========================
+publish/
+*.pubxml
+*.pubxml.user
+PublishProfiles/
+
+# =========================
+# Azure / Deployment
+# =========================
+.azure/
+*.azurepubxml
